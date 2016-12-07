@@ -1,0 +1,25 @@
+{
+    "name": "cyber-duck/silverstripe-social-sharer",
+    "description": "Social sharing widget modue for SilverStripe",
+    "type": "silverstripe-module",
+    "homepage": "http://github.com/cyber-duck/silverstripe-social-sharer",
+    "keywords": [
+        "silverstripe",
+        "social sharing",
+        "social share widget"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Mc Cormack",
+            "email": "andrewm@cyber-duck.co.uk"
+        }
+    ],
+    "support": {
+        "issues": "http://github.com/cyber-duck/silverstripe-social-sharer/issues"
+    },
+    "extra": {
+        "installer-name": "silverstripe-social-sharer"
+    },
+    "prefer-stable": true
+}
