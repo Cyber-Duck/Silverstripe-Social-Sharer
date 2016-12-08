@@ -19,7 +19,7 @@
         "issues": "http://github.com/cyber-duck/silverstripe-social-sharer/issues"
     },
     "extra": {
-        "installer-name": "silverstripe-social-sharer"
+        "installer-name": "social-sharer"
     },
     "prefer-stable": true
 }
