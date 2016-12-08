@@ -21,5 +21,9 @@
     "extra": {
         "installer-name": "social-sharer"
     },
+    "require":
+    {
+        "undefinedoffset/sortablegridfield": "0.6.*"
+    },
     "prefer-stable": true
 }
