@@ -1,0 +1,7 @@
+SiteConfig:
+  extensions:
+    - SocialShareSiteConfigExtension
+
+Page_Controller:
+  extensions:
+    - SocialSharePageExtension
