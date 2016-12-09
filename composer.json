@@ -21,8 +21,11 @@
     "extra": {
         "installer-name": "social-sharer"
     },
-    "require":
-    {
+    "require": {
+        "php": ">=5.4.0",
+        "composer/installers": "*",
+        "silverstripe/cms": ">=3.0.1",
+        "silverstripe/framework": ">=3.0.1",
         "undefinedoffset/sortablegridfield": "0.6.*"
     },
     "prefer-stable": true
