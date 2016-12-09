@@ -1,7 +1,21 @@
 <?php
 
+/**
+ * SocialShareNetwork
+ *
+ * @package silverstripe-social-sharer
+ * @license MIT License https://github.com/cyber-duck/silverstripe-social-sharer/blob/master/LICENSE
+ * @author  <andrewm@cyber-duck.co.uk>
+ **/
 class SocialShareNetwork extends DataObject 
 {
+    /**
+     * Model database fields
+     *
+     * @since version 1.0.0
+     *
+     * @config array $db
+     **/
     private static $db = [
         'Network'    => 'Varchar(512)',
         'NetworkUrl' => 'Varchar(512)',
@@ -9,10 +23,24 @@ class SocialShareNetwork extends DataObject
         'SortOrder'  => 'Int'
     ];
 
+    /**
+     * Has one relation fields
+     *
+     * @since version 1.0.0
+     *
+     * @config array $has_one
+     **/
     private static $has_one = [
         'Image' => 'Image'
     ];
 
+    /**
+     * Fields in the Grid field
+     *
+     * @since version 1.0.0
+     *
+     * @config array $summary_fields
+     **/
     private static $summary_fields = [
         'Thumbnail'  => 'Image',
         'Network'    => 'Network',
@@ -20,6 +48,13 @@ class SocialShareNetwork extends DataObject
         'Active'     => 'Active'
     ];
 
+    /**
+     * Create the CMS fields where we can enter any blocked data
+     *
+     * @since version 1.0.0
+     * 
+     * @return object
+     **/
     public function getCMSFields()
     {
         $fields = parent::getCMSFields();
@@ -38,6 +73,13 @@ class SocialShareNetwork extends DataObject
         return $fields;
     }
 
+    /**
+     * Write default data
+     *
+     * @since version 1.0.0
+     * 
+     * @return void
+     **/
     public function requireDefaultRecords()
     {
         parent::requireDefaultRecords();
@@ -75,6 +117,13 @@ class SocialShareNetwork extends DataObject
         }
     }
 
+    /**
+     * Get the DataObject social image thumbnail
+     *
+     * @since version 1.0.0
+     * 
+     * @return object
+     **/
     public function getThumbnail()
     {
         return $this->Image()->CroppedImage(20, 20);
