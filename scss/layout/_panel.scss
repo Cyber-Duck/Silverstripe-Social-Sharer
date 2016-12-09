@@ -1,67 +1,67 @@
 #social-share-widget {
-	.social-share-panel {
-		background-color: $white;
-		border: 1px solid #CCC;
-		display: none;
-		left: 0;
-		padding: 40px;
-		position: absolute;
-		top: 40px;
-		max-width: 250px;
-		width: 100%;
-		z-index: 1;
+    .social-share-panel {
+        background-color: $white;
+        border: 1px solid #CCC;
+        display: none;
+        left: 0;
+        padding: 40px;
+        position: absolute;
+        top: 40px;
+        max-width: 250px;
+        width: 100%;
+        z-index: 1;
 
-		.social-share-close {
-			font-size: 30px;
-			position: absolute;
-			right: 40px;
-			top: 40px;
-			z-index: 10002;
+        .social-share-close {
+            font-size: 30px;
+            position: absolute;
+            right: 40px;
+            top: 40px;
+            z-index: 10002;
 
-			a {
-				color: #333;
-				cursor: pointer;
-				text-decoration: none;
-			}
-		}
+            a {
+                color: #333;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
 
-		.social-share-title {
-			font-size: 16px;
-		}
+        .social-share-title {
+            font-size: 16px;
+        }
 
-		ul {
-			padding: 0 0 0 0;
+        ul {
+            padding: 0 0 0 0;
 
-			li {
-				line-height: 40px;
-				list-style: none;
-				margin: 5px 0;
+            li {
+                line-height: 40px;
+                list-style: none;
+                margin: 5px 0;
 
-				a {
-					text-decoration: none;
+                a {
+                    text-decoration: none;
 
-					&:hover {
-						text-decoration: underline;
-					}
+                    &:hover {
+                        text-decoration: underline;
+                    }
 
-					.social-share-network-image {
-						background-color: $black;
-						display: inline-block;
-						height: 40px;
-						margin: 0 10px 0 0;
-						vertical-align: top;
-						width: 40px;
-					}
-				}
-			}
-		}
+                    .social-share-network-image {
+                        background-color: $black;
+                        display: inline-block;
+                        height: 40px;
+                        margin: 0 10px 0 0;
+                        vertical-align: top;
+                        width: 40px;
+                    }
+                }
+            }
+        }
 
-		.social-share-copy {
+        .social-share-copy {
 
-		}
+        }
 
-		.social-share-input {
+        .social-share-input {
 
-		}
-	}
+        }
+    }
 }

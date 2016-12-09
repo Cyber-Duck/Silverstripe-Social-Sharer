@@ -1,32 +1,32 @@
 #social-share-widget {
-	.social-share-button {
-		background-color: $green;
-		line-height: 15px;
-		width: 100px;
+    .social-share-button {
+        background-color: $green;
+        line-height: 15px;
+        width: 100px;
 
-		a {
-			color: $white;
-			display: block;
-			margin: 0 0 20px 0;
-			padding: 12px 0 12px 15px;
-			text-decoration: none;
+        a {
+            color: $white;
+            display: block;
+            margin: 0 0 20px 0;
+            padding: 12px 0 12px 15px;
+            text-decoration: none;
 
-			&:hover {
-				background-color: $green-hover;
-			}
-		}
+            &:hover {
+                background-color: $green-hover;
+            }
+        }
 
-		.social-share-button-image {
-			background:{
-				image: url(#{$share-white});
-				repeat: no-repeat;
-				position: center center;
-				size: contain;
-			}
-			display: inline-block;
-			height: 15px;
-			margin-right: 10px;
-			width: 15px;
-		}
-	}
+        .social-share-button-image {
+            background:{
+                image: url(#{$share-white});
+                repeat: no-repeat;
+                position: center center;
+                size: contain;
+            }
+            display: inline-block;
+            height: 15px;
+            margin-right: 10px;
+            width: 15px;
+        }
+    }
 }

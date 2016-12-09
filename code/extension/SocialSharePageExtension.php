@@ -16,17 +16,17 @@ class SocialSharePageExtension extends DataExtension
      *
      * @return string 
      **/
-	public function SocialShareWidget()
-	{
+    public function SocialShareWidget()
+    {
         Requirements::css(SOCIAL_SHARER.'/css/social-sharer.css');
         Requirements::javascript(SOCIAL_SHARER.'/javascript/social-sharer.js');
 
-		return $this->owner
-			->customise([
-				'SocialNetworks' => SocialShareNetwork::get()
-			])
-			->renderWith('SocialShareWidget');
-	}
+        return $this->owner
+            ->customise([
+                'SocialNetworks' => SocialShareNetwork::get()
+            ])
+            ->renderWith('SocialShareWidget');
+    }
 
     /**
      * Replace the path string variables with the page link and title
@@ -37,11 +37,11 @@ class SocialSharePageExtension extends DataExtension
      *
      * @return string 
      **/
-	public function SocialSharerUrl($path)
-	{
-		$find = ['{$AbsoluteLink}', '{$Title}'];
-		$replace = [urlencode($this->owner->AbsoluteLink()), urlencode($this->owner->Title)];
-		
-		return str_replace($find, $replace, $path);
-	}
+    public function SocialSharerUrl($path)
+    {
+        $find = ['{$AbsoluteLink}', '{$Title}'];
+        $replace = [urlencode($this->owner->AbsoluteLink()), urlencode($this->owner->Title)];
+        
+        return str_replace($find, $replace, $path);
+    }
 }
