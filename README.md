@@ -1,6 +1,7 @@
 # SilverStripe Social Sharer
 
 [![Latest Stable Version](https://poser.pugx.org/cyber-duck/silverstripe-social-sharer/v/stable)](https://packagist.org/packages/cyber-duck/silverstripe-social-sharer)
+[![Latest Unstable Version](https://poser.pugx.org/cyber-duck/silverstripe-block-page/v/unstable)](https://packagist.org/packages/cyber-duck/silverstripe-block-page)
 [![Total Downloads](https://poser.pugx.org/cyber-duck/silverstripe-social-sharer/downloads)](https://packagist.org/packages/cyber-duck/silverstripe-social-sharer)
 [![License](https://poser.pugx.org/cyber-duck/silverstripe-social-sharer/license)](https://packagist.org/packages/cyber-duck/silverstripe-social-sharer)
 
