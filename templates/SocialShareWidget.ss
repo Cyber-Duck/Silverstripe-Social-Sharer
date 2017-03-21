@@ -8,7 +8,7 @@
         <div class="social-share-close">
             <a href="#">X</a>
         </div>
-        <p class"social-share-title">Share this page on:</p>
+        <p class="social-share-title">Share this page on:</p>
         <ul>
             <% loop SocialNetworks %>
             <li>
@@ -21,7 +21,7 @@
             </li>
             <% end_loop %>
         </ul>
-        <p class"social-share-copy">Copy page link:</p>
+        <p class="social-share-copy">Copy page link:</p>
         <input type="text" value="$AbsoluteLink" class="social-share-input">
     </div>
 
